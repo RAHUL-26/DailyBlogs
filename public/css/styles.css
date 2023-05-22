@@ -1,0 +1,135 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+.navbar-nav  li a:hover {
+    color: #1a89bc !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1a89bc;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.compose{
+   text-align: center;
+   align-self: center;
+}
+
+#compose{
+    background-color: #1a89bc; 
+    border: none;
+    color: white;
+    margin: 1rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-text{
+    color: #fff;
+}
+
+/*=============== CONTACT ===============*/
+
+.contact__container{
+    padding-top: 1rem;
+  }
+  
+  .contact__form,
+  .contact__group{
+    display: grid;
+    row-gap: 1rem;
+  }
+  
+  .contact__form{
+    position: relative;
+  }
+  
+  .contact__input{
+    padding: 1rem 1.25rem;
+  }
+  
+  .contact__input::placeholder{
+    color: black;
+  }
+  
+  .contact__container textarea{
+    height: 11rem;
+    resize: none;
+    margin-bottom: 2rem;
+  }
+  
+  .contact__button{
+    justify-self: center;
+    cursor: pointer;
+  }
+  
+  .contact__message{
+    position: absolute;
+    left: 0;
+    bottom: 4.5rem;
+    color: black;
+  }
+
+ span{
+    color: #1a89bc;
+ }
+
+ .contact__button{
+    background-color: #1a89bc; 
+    border: none;
+    color: white;
+    margin: 1rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
+
+ a {
+    text-decoration: none;
+ }

@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%= homeText %></p>
+<div class="compose">
+    <button id="compose"><a style="text-decoration: none;" class="btn-text" href="/compose">Compose</a></button>
+</div>
+<% posts.forEach(function(item){ %>
+    <h2><%= item.title %></h2>
+    <p><%= item.post %> <a href="/posts/<%=item._id;%>"> Read more</a></p>
+<% });%>
+
+<%- include("partials/footer"); -%>
